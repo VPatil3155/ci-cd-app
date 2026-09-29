@@ -47,7 +47,7 @@ pipeline {
             echo "App deployed at http://localhost:${PORT}"
         }
         failure {
-            echo "Pipeline failed. Check logs above."
+            echo "Check logs above."
         }
     }
 }
